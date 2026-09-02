@@ -1,0 +1,103 @@
+2026.08.21 21:30:52 INFO  Started: Metals version 1.6.8 in folders 'C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2' for client Visual Studio Code 1.134.0.
+2026.08.21 21:30:52 INFO  Memory monitor started
+2026.08.21 21:30:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.21 21:30:54 INFO  no build target found for C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\src\main\java\com\example\restservice\Greeting.java. Using fallback presentation compiler.
+2026.08.21 21:30:55 INFO  no build target found for C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\src\main\java\com\example\restservice\Greeting.java. Using fallback presentation compiler.
+2026.08.21 21:30:58 INFO  no build target found for C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\src\main\java\com\example\restservice\Greeting.java. Using fallback presentation compiler.
+Aug 21, 2026 9:30:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.08.21 21:30:58 INFO  no build target found for C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\src\main\java\com\example\restservice\Greeting.java. Using fallback presentation compiler.
+2026.08.21 21:30:58 INFO  no build target found for C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\src\main\java\com\example\restservice\Greeting.java. Using fallback presentation compiler.
+2026.08.21 21:30:59 INFO  running 'C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\gradlew.bat --stacktrace --console=plain --init-script C:\Users\ijahm\AppData\Local\Temp\metals10971329326912333157\init-script.gradle bloopInstall'
+2026.08.21 21:31:00 INFO  no build target found for C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\src\main\java\com\example\restservice\Greeting.java. Using fallback presentation compiler.
+2026.08.21 21:31:01 INFO  no build target found for C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\rest-service\src\main\java\com\example\restservice\Greeting.java. Using fallback presentation compiler.
+2026.08.21 21:31:05 INFO  > Task :configureBloopInstall
+2026.08.21 21:31:05 INFO  > Task :bloopInstall
+2026.08.21 21:31:05 INFO  
+2026.08.21 21:31:05 INFO  [Incubating] Problems report is available at: file:///C:/Users/ijahm/OneDrive/Documents/Code/Virtual_Experience/hewlet_packard_all/springBoot_take2/rest-service/build/reports/problems/problems-report.html
+2026.08.21 21:31:05 INFO  
+2026.08.21 21:31:05 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+2026.08.21 21:31:05 INFO  
+2026.08.21 21:31:05 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2026.08.21 21:31:05 INFO  
+2026.08.21 21:31:05 INFO  For more on this, please refer to https://docs.gradle.org/9.5.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2026.08.21 21:31:05 INFO  
+2026.08.21 21:31:05 INFO  BUILD SUCCESSFUL in 5s
+2026.08.21 21:31:05 INFO  2 actionable tasks: 2 executed
+2026.08.21 21:31:05 INFO  Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.5.1/userguide/configuration_cache_enabling.html
+2026.08.21 21:31:06 INFO  time: ran 'gradle bloopInstall' in 6.22s
+2026.08.21 21:31:06 INFO  Attempting to connect to the build server...
+2026.08.21 21:31:06 INFO  Found a Bloop server running
+2026.08.21 21:31:06 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\.metals\bsp.trace.json or C:\Users\ijahm\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.08.21 21:31:06 INFO  time: Connected to build server in 0.58s
+2026.08.21 21:31:06 INFO  Connected to Build server: Bloop v2.1.1
+2026.08.21 21:31:06 INFO  time: Imported build in 0.31s
+2026.08.21 21:31:09 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.21 21:31:22 INFO  time: indexed workspace in 15s
+2026.08.21 21:31:23 INFO  compiling rest-service (2 java sources)
+Aug 21, 2026 9:31:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.21 21:31:25 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ijahm/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.12.3/semanticdb-javac-0.12.3.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.08.21 21:31:25 INFO  compiling rest-service-test (1 java source)
+2026.08.21 21:31:26 INFO  time: compiled rest-service in 3.33s
+2026.08.21 21:31:28 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ijahm/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.12.3/semanticdb-javac-0.12.3.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.08.21 21:31:28 INFO  time: compiled rest-service-test in 2.46s
+2026.08.21 21:31:37 INFO  compiling rest-service (1 java source)
+2026.08.21 21:31:41 INFO  time: compiled rest-service in 3.6s
+2026.08.21 21:31:45 INFO  compiling rest-service (3 java sources)
+2026.08.21 21:31:47 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ijahm/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.12.3/semanticdb-javac-0.12.3.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.08.21 21:31:47 INFO  time: compiled rest-service in 2.15s
+2026.08.21 21:41:05 INFO  compiling rest-service (1 java source)
+2026.08.21 21:41:07 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ijahm/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.12.3/semanticdb-javac-0.12.3.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.08.21 21:41:07 INFO  time: compiled rest-service in 2.42s
+2026.08.21 21:41:07 INFO  compiling rest-service (7 java sources)
+2026.08.21 21:41:09 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ijahm/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.12.3/semanticdb-javac-0.12.3.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.08.21 21:41:09 INFO  time: compiled rest-service in 2.1s
+Aug 21, 2026 9:41:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+Aug 21, 2026 9:41:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 138
+Aug 21, 2026 9:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+Aug 21, 2026 9:43:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+Aug 21, 2026 9:45:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 368
+2026.08.21 21:45:53 INFO  compiling rest-service (1 java source)
+2026.08.21 21:45:55 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ijahm/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.12.3/semanticdb-javac-0.12.3.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.08.21 21:45:55 INFO  time: compiled rest-service in 1.66s
+2026.08.21 21:46:23 INFO  Shutting down server
+2026.08.21 21:46:23 INFO  Memory monitor stopped
+2026.08.21 21:46:23 INFO  shutting down Metals
+2026.08.21 21:46:23 INFO  Shut down connection with build server.
+2026.08.21 21:46:23 INFO  Exiting server
+2026.09.02 22:27:49 INFO  Started: Metals version 1.6.8 in folders 'C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2' for client Visual Studio Code 1.134.0.
+2026.09.02 22:27:49 INFO  Memory monitor started
+2026.09.02 22:27:52 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.02 22:27:52 INFO  Attempting to connect to the build server...
+2026.09.02 22:27:52 INFO  No running Bloop server found, starting one.
+2026.09.02 22:27:56 INFO  Starting compilation server
+2026.09.02 22:28:00 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\ijahm\OneDrive\Documents\Code\Virtual_Experience\hewlet_packard_all\springBoot_take2\.metals\bsp.trace.json or C:\Users\ijahm\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.02 22:28:19 INFO  time: Connected to build server in 26s
+2026.09.02 22:28:19 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.02 22:28:20 INFO  time: Imported build in 0.85s
+2026.09.02 22:28:29 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.02 22:28:34 INFO  time: indexed workspace in 14s
