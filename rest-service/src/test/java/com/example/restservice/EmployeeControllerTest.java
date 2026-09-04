@@ -44,4 +44,16 @@ public class EmployeeControllerTest {
                 .andExpect(jsonPath("$.employeeList", hasSize(3)))
                 .andExpect(jsonPath("$.employeeList[0].first_name", is("First1")));
     }
+
+    @Test
+    public void addEmployeeTest() throws Exception {
+
+        Employee employee = new Employee("4", "First4", "Last4", "Email4", "Mr");
+
+        mockMvc.perform(
+                org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post("/employees")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("{\"id\":\"4\",\"first_name\":\"First4\",\"last_name\":\"Last4\",\"email\":\"Email4\",\"title\":\"Mr\"}"))
+                .andExpect(status().isCreated());
+    }
 }
